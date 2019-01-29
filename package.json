@@ -25,6 +25,8 @@
     "build": "react-scripts build && mv build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "precommit": "lint-staged"
   },
   "lint-staged": {
@@ -49,6 +51,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.11.0",
+    "gh-pages": "^2.0.1",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.1",
     "prettier": "^1.16.1"
