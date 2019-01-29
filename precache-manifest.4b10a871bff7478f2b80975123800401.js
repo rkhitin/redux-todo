@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "b88dee71a60308b32a8b",
-    "url": "/redux-todo/static/js/main.b88dee71.chunk.js"
+    "revision": "8ea8e63adfefa75d3ccf",
+    "url": "/redux-todo/static/js/main.8ea8e63a.chunk.js"
   },
   {
     "revision": "47458cb786ceb4e20a3b",
@@ -16,16 +16,20 @@ self.__precacheManifest = [
     "url": "/redux-todo/static/js/runtime~main.e97dda42.js"
   },
   {
-    "revision": "5dbae370414339a081c1c6fac80659cc",
-    "url": "/redux-todo/static/media/icons-16.5dbae370.eot"
-  },
-  {
     "revision": "d0bcd5b9effbe2570868f8c906ea7792",
     "url": "/redux-todo/static/media/icons-16.d0bcd5b9.woff"
   },
   {
     "revision": "26e98f292f486f2bfac2abf9472e490a",
     "url": "/redux-todo/static/media/icons-16.26e98f29.ttf"
+  },
+  {
+    "revision": "9d0578e5315c18aa528db1f1bfcb56f5",
+    "url": "/redux-todo/static/media/icons-20.9d0578e5.woff"
+  },
+  {
+    "revision": "5dbae370414339a081c1c6fac80659cc",
+    "url": "/redux-todo/static/media/icons-16.5dbae370.eot"
   },
   {
     "revision": "f4d910a0626d8e60f310a7199dc6b191",
@@ -36,11 +40,7 @@ self.__precacheManifest = [
     "url": "/redux-todo/static/media/icons-20.0ec8ac2b.ttf"
   },
   {
-    "revision": "9d0578e5315c18aa528db1f1bfcb56f5",
-    "url": "/redux-todo/static/media/icons-20.9d0578e5.woff"
-  },
-  {
-    "revision": "d4a351a0f753c03101e31c9554cedce9",
+    "revision": "a71e533dde2a47ffb088843f94fefc1e",
     "url": "/redux-todo/index.html"
   }
 ];
