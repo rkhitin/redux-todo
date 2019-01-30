@@ -4,7 +4,13 @@ import { routerMiddleware } from 'connected-react-router';
 
 import createRootReducer from './reducers';
 
-export const history = createBrowserHistory();
+const basename = document.location.href.includes('rkhitin.github')
+  ? '/redux-todo/'
+  : '/';
+
+export const history = createBrowserHistory({
+  basename,
+});
 
 export default function configureStore(preloadedState) {
   const store = createStore(
